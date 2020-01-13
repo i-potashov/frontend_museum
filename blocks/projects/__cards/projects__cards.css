@@ -1,0 +1,15 @@
+.projects__cards {
+    display: grid;
+    grid-template-rows: auto;
+    grid-gap: 48px;
+    justify-items: center;
+    margin: 0 25px;
+}
+
+@media (min-width: 1024px) {
+    .projects__cards {
+        grid-template-columns: repeat(3,auto);
+        grid-gap: 83px;
+        margin: 85px 64px 97px;
+    }
+}

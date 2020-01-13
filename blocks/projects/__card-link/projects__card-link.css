@@ -1,0 +1,25 @@
+.projects__card-link {
+    position: relative;
+    margin-top: 16px;
+    font-size: 12px;
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    padding-left: 55px;
+}
+
+.projects__card-link:before {
+    display: block;
+    width: 30px;
+    content: '';
+    position: absolute;
+    border-bottom: 2px solid #FBAC86;
+    top: 50%;
+    left: 0;
+}
+
+@media (min-width: 1024px) {
+    .projects__card-link {
+        font-size: 14px;
+    }
+}

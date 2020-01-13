@@ -1,0 +1,14 @@
+.post-project__paragraph {
+    display: none;
+    margin-bottom: 30px;
+}
+
+.post-project__paragraph:first-of-type {
+    display: block;
+}
+
+@media (min-width: 1024px) {
+    .post-project__paragraph {
+        display: block;
+    }
+}

@@ -1,0 +1,16 @@
+.intro__title {
+    font-family: Pribambas, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    color: #001185;
+    text-align: center;
+    text-transform: uppercase;
+    max-width: 290px;
+}
+
+@media (min-width: 1024px) {
+    .intro__title {
+        font-size: 48px;
+        max-width: 100%;
+    }
+}

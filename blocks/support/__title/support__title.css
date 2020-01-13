@@ -1,0 +1,12 @@
+.support__title {
+    text-align: center;
+    font-family: Pribambas, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+@media (min-width: 1024px) {
+    .support__title {
+        font-size: 36px;
+    }
+}

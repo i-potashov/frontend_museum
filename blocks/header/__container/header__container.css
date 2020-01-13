@@ -1,0 +1,17 @@
+.header__container {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: space-between;
+    align-items: center;
+    padding: 9px 0;
+    position: absolute;
+    width: 100%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    background-color: #F9E7D9;
+}
+
+@media (min-width: 1024px) {
+    .header__container {
+        padding: 5px 0 0;
+    }
+}

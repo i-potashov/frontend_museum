@@ -1,0 +1,12 @@
+.header__menu {
+    display: none;
+}
+
+@media (min-width: 1024px) {
+    .header__menu {
+        display: grid;
+        grid-template-columns: repeat(5,auto);
+        grid-gap: 60px;
+        margin-right: 87px;
+    }
+}

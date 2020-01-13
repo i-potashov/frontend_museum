@@ -1,0 +1,15 @@
+.intro__date {
+    font-family: Pribambas, Arial, sans-serif;
+    font-size: 24px;
+    color: #001185;
+    text-transform: uppercase;
+    margin-top: 22px;
+}
+
+@media (min-width: 1024px) {
+    .intro__date {
+        font-size: 36px;
+        line-height: 36px;
+    }
+}
+

@@ -1,0 +1,18 @@
+.support__container {
+    display: grid;
+    grid-template-areas: "one" "two" "three";
+    grid-template-rows: repeat(3, 1fr);
+    justify-items: center;
+    justify-content: center;
+    grid-gap: 58px;
+    padding: 25px 0;
+}
+
+@media (min-width: 1024px) {
+    .support__container {
+        grid-template-areas: "one one" "two three";
+        justify-content: space-around;
+        grid-template-rows: repeat(2, 1fr);
+        padding: 75px 150px;
+    }
+}

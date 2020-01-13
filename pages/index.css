@@ -1,0 +1,9 @@
+@import url('../vendor/fonts.css');
+@import url('../blocks/page/page.css');
+@import url('../blocks/header/header.css');
+@import url('../blocks/intro/intro.css');
+@import url('../blocks/poster/poster.css');
+@import url('../blocks/about/about.css');
+@import url('../blocks/projects/projects.css');
+@import url('../blocks/support/support.css');
+@import url('../blocks/footer/footer.css');

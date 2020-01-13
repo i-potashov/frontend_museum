@@ -1,0 +1,12 @@
+.footer__link {
+    font-weight: bold;
+    text-decoration: none;
+    color: #000000;
+    margin-bottom: 7px;
+}
+
+@media (min-width: 1024px) {
+    .footer__link {
+        font-size: 18px;
+    }
+}

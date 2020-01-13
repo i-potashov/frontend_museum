@@ -1,0 +1,21 @@
+.post-project__items {
+    list-style: none;
+    display: grid;
+    grid-template-rows: repeat(3,auto);
+    grid-gap: 40px;
+}
+
+@media (min-width: 1024px) {
+    .post-project__items .post-project__item:nth-child(2n) .post-project__images {
+        order: 2;
+    }
+
+    .post-project__items .post-project__item:nth-child(2n) .post-project__wrap {
+        order: 1;
+        justify-content: end;
+    }
+
+    .post-project__items .post-project__item:nth-child(2n) .post-project__wrap .post-project__button {
+        float: right;
+    }
+}

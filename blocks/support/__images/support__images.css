@@ -1,0 +1,16 @@
+.support__images {
+    display: grid;
+    grid-template-areas: "one one" "two three";
+    grid-gap: 38px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin: 25px 0;
+}
+
+@media (min-width: 1024px) {
+    .support__images {
+        grid-template-areas: "one two three";
+        justify-content: space-around;
+    }
+}

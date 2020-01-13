@@ -1,0 +1,12 @@
+.footer__social-icons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 24px;
+    list-style: none;
+}
+
+@media (min-width: 1024px) {
+    .footer__social-icons {
+        order: 3;
+    }
+}

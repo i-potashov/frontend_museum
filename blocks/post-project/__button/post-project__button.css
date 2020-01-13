@@ -1,0 +1,10 @@
+.post-project__button {
+    font-weight: bold;
+    font-size: 18px;
+    padding: 14px 44px;
+    border: 2px solid #FA8E5A;
+    border-radius: 50px;
+    background-color: #FFFFFF;
+    color: #001185;
+    text-transform: uppercase;
+}

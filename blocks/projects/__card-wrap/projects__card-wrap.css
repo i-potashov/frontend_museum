@@ -1,0 +1,13 @@
+.projects__card-wrap{
+    background-color: #FFFFFF;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.25);
+    margin-top: -40px;
+    max-width: 70%;
+    padding: 22px 15px 26px;
+}
+
+@media (min-width: 1024px) {
+    .projects__card-wrap {
+        max-width: 80%;
+    }
+}

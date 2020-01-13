@@ -1,0 +1,11 @@
+.header__menu-button {
+    margin-right: 40px;
+    border: none;
+    background-color: #F9E7D9;
+}
+
+@media (min-width: 1024px) {
+    .header__menu-button {
+        display: none;
+    }
+}

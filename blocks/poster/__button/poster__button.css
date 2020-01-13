@@ -1,0 +1,15 @@
+.poster__button {
+    background-color: #FA8E5A;
+    border-radius: 50px;
+    font-size: 18px;
+    color: #001185;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 15px 32px;
+}
+
+@media (min-width: 1024px) {
+    .poster__button {
+        font-size: 30px;
+    }
+}

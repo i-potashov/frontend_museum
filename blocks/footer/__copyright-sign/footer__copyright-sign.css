@@ -1,0 +1,18 @@
+.footer__copyright-sign {
+    position: relative;
+    margin-right: 12px;
+}
+
+.footer__copyright-sign:after {
+    content: '\00A9	';
+    position: absolute;
+    bottom: 0;
+    line-height: 1;
+}
+
+@media (min-width: 1024px) {
+    .footer__copyright-sign {
+        order: 2;
+        font-size: 18px;
+    }
+}

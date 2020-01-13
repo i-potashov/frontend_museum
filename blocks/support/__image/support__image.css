@@ -1,0 +1,12 @@
+@import url('_one/support__image_one.css');
+@import url('_two/support__image_two.css');
+
+.support__image {
+    max-width: 115px;
+}
+
+@media (min-width: 1024px) {
+    .support__image {
+        max-width: 162px;
+    }
+}

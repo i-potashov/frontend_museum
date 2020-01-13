@@ -1,0 +1,12 @@
+.intro__subtitle{
+    font-size: 24px;
+    font-weight: normal;
+    color: #A95099;
+    margin-top: 22px;
+}
+
+@media (min-width: 1024px) {
+    .intro__subtitle {
+        font-size: 36px;
+    }
+}

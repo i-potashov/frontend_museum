@@ -1,0 +1,12 @@
+.projects__card-image {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    position: relative;
+    z-index: -1;
+    width: 100%;
+}
+
+@media (min-width: 1024px) {
+    .projects__card-image {
+        max-width: 355px;
+    }
+}

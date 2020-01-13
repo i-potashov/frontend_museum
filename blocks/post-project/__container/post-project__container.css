@@ -1,0 +1,13 @@
+.post-project__container {
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: center;
+    justify-items: center;
+    padding: 108px 0 8px;
+}
+
+@media (min-width: 1024px) {
+    .post-project__container {
+        padding: 150px 0 8px;
+    }
+}

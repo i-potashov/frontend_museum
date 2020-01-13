@@ -1,0 +1,5 @@
+@media (min-width: 1024px) {
+    .post-project__wrap:nth-child(2n) {
+        order: 1;
+    }
+}

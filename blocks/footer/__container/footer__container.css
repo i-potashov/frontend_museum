@@ -1,0 +1,16 @@
+.footer__container {
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: center;
+    justify-items: center;
+    grid-gap: 28px;
+    padding: 35px 0 38px;
+}
+
+@media (min-width: 1024px) {
+    .footer__container {
+        grid-template-columns: repeat(3,auto);
+        justify-content: space-around;
+        align-items: center;
+    }
+}
