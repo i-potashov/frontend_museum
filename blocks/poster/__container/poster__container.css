@@ -1,9 +1,0 @@
-@import url('./_color/poster__container_color.css');
-
-.poster__container {
-    display: grid;
-    justify-items: center;
-    justify-content: center;
-    align-items: center;
-    padding: 40px 0;
-}
