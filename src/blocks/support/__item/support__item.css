@@ -1,0 +1,7 @@
+@import url('_one/support__item_one.css');
+@import url('_two/support__item_two.css');
+@import url('_three/support__item_three.css');
+
+.support__item {
+    list-style: none;
+}
